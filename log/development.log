@@ -3884,3 +3884,9 @@ Started GET "/admin/content?search=%5Buser_id%5D%3D3" for 127.0.0.1 at 2013-07-2
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` LIMIT 1[0m
 Redirected to http://localhost:3001/accounts/login
 Completed 302 Found in 53ms
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/istpl/Downloads/multimedia/config/environment.rb:5)
+  [1m[36mBlog Load (0.2ms)[0m  [1mSELECT `blogs`.* FROM `blogs` ORDER BY id LIMIT 1[0m
+  [1m[35mBlog Load (0.3ms)[0m  SELECT `blogs`.* FROM `blogs` ORDER BY id LIMIT 1
+  [1m[36mBlog Load (0.2ms)[0m  [1mSELECT `blogs`.* FROM `blogs` ORDER BY id LIMIT 1[0m
+TypoPlugins: just registered plugin [TypoPlugins::Gravatar] for :avatar target.
+  [1m[35mSQL (1.4ms)[0m  describe `articles_tags`
