@@ -1,28 +1,18 @@
 
 
 development:
-  adapter: mysql
+  adapter: postgresql
   encoding: utf8
-  database: multimedia
-  username: root
-  password: root
-  host: 127.0.0.1
-  port: 3306
+  database: myapp_development
+  username: pgguy
 
 test:
-  adapter: mysql
+  adapter: postgresql
   encoding: utf8
-  database: multimedia
-  username: root
-  password: root
-  host: 127.0.0.1
-  port: 3306
+  database: myapp_test
+  username: pgguy
 
 production:
-  adapter: mysql
+  adapter: postgresql
   encoding: utf8
-  database: multimedia
-  username: root
-  password: root
-  host: 127.0.0.1
-  port: 3306
+  database: myapp_production

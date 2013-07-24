@@ -3,7 +3,7 @@
 development:
   adapter: mysql
   encoding: utf8
-  database: typo
+  database: multimedia
   username: root
   password: root
   host: 127.0.0.1
@@ -12,7 +12,7 @@ development:
 test:
   adapter: mysql
   encoding: utf8
-  database: typo
+  database: multimedia
   username: root
   password: root
   host: 127.0.0.1
@@ -21,7 +21,7 @@ test:
 production:
   adapter: mysql
   encoding: utf8
-  database: typo
+  database: multimedia
   username: root
   password: root
   host: 127.0.0.1
